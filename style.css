@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: url(./cursors/pawn-blue.png), auto;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+p {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 120px 30px;
+    text-align: center;
+}
+
+.name {
+    height: 460px;
+    margin: 70px 20px 0px 20px;
+    padding: 100px 20px 20px 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    width: 700px;
+    padding: 20px;
+}
+
+button {
+    background-color: white;
+    border: black 6px solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 8px;
+    flex: 1;
+    cursor: url(./cursors/pawn-green.png), auto;
+}
+
+button:hover {
+    background-color: black;
+    border: black 6px solid;
+    color: white;
+}
